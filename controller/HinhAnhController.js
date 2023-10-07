@@ -52,7 +52,6 @@ const LoginUser = async (req, res) => {
   } catch (exp) {
     res.status(500).send(`Error${exp}`);
   }
-  res.send("dang nhap thanh cong");
 };
 //danh sach nguoi dung
 const DanhSachUser = async (req, res) => {
